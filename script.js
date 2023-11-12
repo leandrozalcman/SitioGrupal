@@ -4,7 +4,7 @@ function toggleDarkMode() {
     body.classList.toggle("dark");
     if (body.classList.contains("dark")) {
         textBox.style.color = "white";
-        document.querySelector(".background-image").style.backgroundImage = "url('https://img.freepik.com/free-vector/green-curve-frame-template-vector_53876-113965.jpg?w=1380&t=st=1698963501~exp=1698964101~hmac=03e822a69934e394bc40c6fe46bb1b25a2aa68cb7e6c76e464105a636e129cdc')";
+        document.querySelector(".background-image").style.backgroundImage = "url('https://img.freepik.com/free-vector/background-line-abstract-gradient-design_483537-2563.jpg?w=1380&t=st=1699818563~exp=1699819163~hmac=d35455393aea2b4379a03107e5bcd0b350bedf013a16d96bf92204992fbd53a1')";
         localStorage.setItem("theme", "dark");
     } else {
         textBox.style.color = "black";
@@ -33,7 +33,7 @@ window.onload = function () {
     if (theme === "dark") {
         document.getElementsByTagName("body")[0].classList.add("dark");
         document.querySelector(".text-box").style.color = "white";
-        document.querySelector(".background-image").style.backgroundImage = "url('https://img.freepik.com/free-vector/green-curve-frame-template-vector_53876-113965.jpg?w=1380&t=st=1698963501~exp=1698964101~hmac=03e822a69934e394bc40c6fe46bb1b25a2aa68cb7e6c76e464105a636e129cdc')";
+        document.querySelector(".background-image").style.backgroundImage = "url('https://img.freepik.com/free-vector/background-line-abstract-gradient-design_483537-2563.jpg?w=1380&t=st=1699818563~exp=1699819163~hmac=d35455393aea2b4379a03107e5bcd0b350bedf013a16d96bf92204992fbd53a1')";
         document.querySelector(".dark-mode").innerHTML = '<i class="fas fa-moon"></i>';
     }
 };
